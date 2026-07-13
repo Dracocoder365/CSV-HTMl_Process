@@ -1,8 +1,8 @@
-const csv = require('csv-parser');
-const fs = require('fs');
+import csv from 'csv-parser';
+import  fs from 'fs';
 
 
-export function CSVtoJSON () {
+export function CSVtoJSON() {
   const dataJson = [];
 
 fs.createReadStream('data.csv')
