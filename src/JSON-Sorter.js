@@ -60,4 +60,3 @@ for(let i = 0; i < nameArr.length; i++) {
 ]
 
 */
-console.log(orderedDataJsonArr);
