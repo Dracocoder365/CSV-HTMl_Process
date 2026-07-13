@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "unidays-font";
+    src: url("./fonts/ui-semibold.woff2") format("woff2");
+}
+
+body {
+    font-family: unidays-font;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.brand-item {
+    
+}
+
+.brand-image {
+    vertical-align: middle;
+    height: 75px;
+}
+
+.brand-name {
+    vertical-align: middle;
+}
