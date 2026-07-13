@@ -7,17 +7,7 @@ import quickSort from "./quickSort.js"
 const data = await CSVtoJSON("./data.csv")
 
 const orderedData = quickSort(data);
-
-let templates = "";
-
-for (const entry of orderedData) {
-    const toReplace = [
-        ["BRAND-NAME", entry["Name"]],
-        ["BRAND-LOGO", entry["logo url"]]
-    ];
-    const replaced = templateParser(toReplace, "../templates/brand.html");
-    templates = templates.concat("", replaced);
-}
+const templates = templateParser(orderedData, "../templates/brand.html")
 
 const html = `
 <!DOCTYPE html>
