@@ -15,9 +15,9 @@ const html = `
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <table>
+    <div class="container">
         ${templates}
-    </table>
+    </div>
 </body>
 `
 

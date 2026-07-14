@@ -15,21 +15,43 @@ ul {
 
 .brand-item {
     
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border:1px solid black;
+    max-height: 350px;
+    max-width: 300px;
+
+    
+
+    
 }
 
 .brand-image {
     vertical-align: middle;
     horizontal-align: middle;
-    max-height: 100px;
-    max-width: 150px;
+    max-height: 200px;
+    max-width: 250px;
+    
 }
 
-.img-td {
+.img-box {
     text-align: center;
     align: center;
+    
 }
 
 .brand-name {
     vertical-align: middle;
     margin-left: 100px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+    gap: 0px;
+    padding: 0px;
+    align-self: center;
 }
