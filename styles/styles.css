@@ -19,7 +19,8 @@ ul {
     justify-content: center;
     align-items: center;
     
-    border:1px solid black;
+    border:5px solid black;
+    border-radius: 5px;
     max-height: 350px;
     max-width: 300px;
 
@@ -30,15 +31,19 @@ ul {
 
 .brand-image {
     vertical-align: middle;
-    horizontal-align: middle;
+    margin-left: auto;
+    margin-right: auto;
     max-height: 200px;
     max-width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
     
 }
 
 .img-box {
     text-align: center;
-    align: center;
+    align-self: center;
     
 }
 
@@ -51,7 +56,10 @@ ul {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0px;
-    gap: 0px;
+    gap: 10px;
     padding: 0px;
     align-self: center;
+    max-width: (10vw);
+    padding-left: 25vw;
+    padding-right: 25vw;
 }
