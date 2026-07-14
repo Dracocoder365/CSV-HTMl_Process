@@ -14,7 +14,6 @@ ul {
 }
 
 .brand-item {
-    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,10 +22,6 @@ ul {
     border-radius: 5px;
     max-height: 350px;
     max-width: 300px;
-
-    
-
-    
 }
 
 .brand-image {
@@ -37,14 +32,11 @@ ul {
     max-width: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-    
 }
 
 .img-box {
     text-align: center;
     align-self: center;
-    
 }
 
 .brand-name {
@@ -63,4 +55,10 @@ ul {
     max-width: (10vw);
     padding-left: 25vw;
     padding-right: 25vw;
+}
+
+.letterHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
