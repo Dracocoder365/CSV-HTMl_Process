@@ -15,7 +15,9 @@ const html = `
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    ${templates}
+    <div style="align-items: center;">
+        ${templates}
+    </div>
 </body>
 `
 
